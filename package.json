@@ -1,0 +1,9 @@
+{
+  "name": "@russia-sanctions/connect-express",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "repository": "https://github.com/Russia-Sanctions/Connect-Express",
+  "author": "Emily Shepherd <emily@redcoat.dev>",
+  "license": "MIT",
+  "private": false
+}
