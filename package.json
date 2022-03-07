@@ -5,5 +5,8 @@
   "repository": "https://github.com/Russia-Sanctions/Connect-Express",
   "author": "Emily Shepherd <emily@redcoat.dev>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "@russia-sanctions/base": ">=0.0.2"
+  }
 }
