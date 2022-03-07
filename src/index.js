@@ -12,5 +12,5 @@ export default (req, res, next) => {
     ...(req.headers['x-forwarded-for'] || '').split(','),
     req.connection.remoteAddress
   ].filter(ip => !!ip).map(ip => matchIp(ip)))
-    .then(matches => !matches.some(item => item.type) ? dieWithMsg(res) : next())
+    .then(matches => matches.some(item => item.type) ? dieWithMsg(res) : next())
 }
