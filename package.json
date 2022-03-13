@@ -1,6 +1,6 @@
 {
   "name": "@russia-sanctions/connect-express",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Sanction Web Traffic From Russia using express.js or nuxt.js",
   "keywords": ["Russia", "Belarus", "Ukraine", "Sanction", "War"],
   "main": "src/index.js",
@@ -9,6 +9,6 @@
   "license": "MIT",
   "private": false,
   "dependencies": {
-    "@russia-sanctions/base": ">=0.0.2"
+    "@russia-sanctions/base": ">=1.0.1"
   }
 }
