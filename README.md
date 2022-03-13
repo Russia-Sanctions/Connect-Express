@@ -18,7 +18,18 @@ Or via yarn:
 yarn add @russia-sanctions/connect-express
 ```
 
-## Use with Nuxt.js
+### Usage with express
+
+```
+const express = requre('express')
+const sanctions = requre('@russia-sanctions/connect-express')
+
+const app = express()
+
+app.use(sanctions)
+```
+
+### Usage with Nuxt.js
 
 After installation, edit your `nuxt.config.js` file and add the
 following:
